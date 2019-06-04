@@ -12,7 +12,7 @@ namespace Assignment2_8040
         {
             if(side1 + side2 > side3 && side2 + side3 > side1 && side1 + side3 > side2)
             {
-                Console.WriteLine("It is Triangle");
+                Console.WriteLine("It is valid Triangle");
                 
                  if( side1 == side2 && side2 == side3)
                 {
@@ -29,7 +29,7 @@ namespace Assignment2_8040
             }
             else
             {
-                return ("It is not a Triangle");
+                return ("It is not valid Triangle");
             } 
         }
     }
